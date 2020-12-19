@@ -26,7 +26,7 @@ $("#searchBtn").on("click", function() {
   $("#searchTerm").val("");  
 
  // full url to call API
-var queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + apiKey;";
+var queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + apiKey;
 
  $.ajax({
  url: queryUrl,
@@ -110,7 +110,7 @@ var  hour = results[i].dt_txt.split('-')[2].split(' ')[1];
 console.log(day);
  console.log(hour);
 
-      if(results[i].dt_txt.indexOf("12:00:00") !== -1){
+if(results[i].dt_txt.indexOf("12:00:00") !== -1){
         
 // Convert temperature to fahrenheit 
  var temp = (results[i].main.temp - 273.15) * 1.80 + 32;
