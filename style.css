@@ -1,6 +1,5 @@
   
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
-@import url('weather sun and moon.png');
 
 body {
     height: 100%;
@@ -9,6 +8,7 @@ body {
     line-height: 1px;
     background-color: rgba(245, 180, 172, 0.959);
     color: #9c6e92;
+    background-image: url('weather moon and sun.png');
 
 }
 
