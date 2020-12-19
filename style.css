@@ -7,7 +7,7 @@ body {
     font-size: 18px;
     line-height: 1px;
     background-color: rgba(245, 180, 172, 0.959);
-   
+
 
 }
 
@@ -40,7 +40,7 @@ header {
 /*forecast-date*/
 .forecast-date {
     font-size: 18px;
-    color: #9c6e92
+    color: #f5dff0
 }
 
 /*button*/
