@@ -26,7 +26,7 @@ $("#searchBtn").on("click", function() {
   $("#searchTerm").val("");  
 
  // full url to call API
-var queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + apiKey;
+var queryUrl = "api.openweathermap.org/data/2.5/weather?q=Newark,us&appid=b27e7d30cce9afc9ff3978aead8c6654";
 
  $.ajax({
  url: queryUrl,
@@ -87,7 +87,7 @@ cardBody.append(city, temperature, humidity, wind);
 function getCurrentForecast () {
   
   $.ajax({
-    url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city + apiKey,
+    url: "https://api.openweathermap.org/data/2.5/forecast?q=" + newark, + b27e7d30cce9afc9ff3978aead8c6654,
     method: "GET"
   }).then(function (response){
 
@@ -116,12 +116,11 @@ console.log(day);
  var temp = (results[i].main.temp - 273.15) * 1.80 + 32;
  var tempF = Math.floor(temp);
 
- var card = $("<div>").addClass("card col-md-2 ml-4 bg-primary text-white");
- var cardBody = $("<div>").addClass("card-body p-3 forecastBody")
+var card = $("<div>").addClass("card col-md-2 ml-4 bg-primary text-white")
+var cardBody = $("<div>").addClass("card-body p-3 forecastBody")
 var cityDate = $("<h4>").addClass("card-title").text(date.toLocaleDateString('en-US'));
- var temperature = $("<p>").addClass("card-text forecastTemp").text("Temperature: " + tempF + " °F");
- var humidity = $("<p>").addClass("card-text forecastHumidity").text("Humidity: " + results[i].main.humidity + "%");
-
+var temperature = $("<p>").addClass("card-text forecastTemp").text("Temperature: " + tempF + " °F")
+var humidity = $("<p>").addClass("card-text forecastHumidity").text("Humidity: " + results[i].main.humidity + "%");
  var image = $("<img>").attr("src", "https://openweathermap.org/img/w/" + results[i].weather[0].icon + ".png")
 
  cardBody.append(cityDate, image, temperature, humidity);
