@@ -3,7 +3,7 @@
 //Declaring the var city and API key
 var city = $("#searchTerm").val();
 // store api key
-var apiKey = "&appid=afaa8eea1769b4359fd8e07b2efcefbd";
+var apiKey = "&appid=b27e7d30cce9afc9ff3978aead8c6654D";
 
 var date = new Date();
 
