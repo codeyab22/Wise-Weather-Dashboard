@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
-* {
-    box-sizing: border-box;
 }
 
 body {
@@ -8,7 +6,41 @@ body {
     margin: 0;
     font-size: 18px;
     line-height: 1px;
-    color: rgba(245, 180, 172, 0.959);
+    blackground-color: rgba(245, 180, 172, 0.959);
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+/*header*/
+header {
+    width: 100%;
+    height: 100px;
+    color:  #c4dee9;
+    margin-top: 0;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #e4b2b2;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    background-color: rgb(211, 151, 164)
+}
+
+/*city*/
+.city-name {
+    font-size: 30px;
+    color:  #9c6e92
+}
+
+/*forecast-date*/
+.forecast-date {
+    font-size: 18px;
+    color: #9c6e92
+}
 
 }
 
@@ -23,38 +55,10 @@ button{
 }
 
 button:hover {
-    background-color: #c4dee9;
+ background-color: #c4dee9;
 }
 
 button:focus {
-    border: none;
-    outline-color: #c4dee9;
-}
-
-/*header*/
-header {
-    width: 100%;
-    height: 100px;
-    color:  #c4dee9;
-    margin-top: 0;
-    text-align: center;
-    font-size: xx-large;
-    background-color: #e4b2b2;
-}
-
-.navbar-brand {
-    font-size: 36px;
-    color: rgb(211, 151, 164)
-}
-
-/*city*/
-.city-name {
-    font-size: 30px;
-    color:  #9c6e92
-}
-
-/*forecast-date*/
-.forecast-date {
-    font-size: 18px;
-    color: #9c6e92
+  border: none;
+ outline-color: #c4dee9;
 }
