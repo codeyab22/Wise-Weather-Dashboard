@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
-}
+
 
 body {
     height: 100%;
     margin: 0;
     font-size: 18px;
     line-height: 1px;
-    blackground-color: rgba(245, 180, 172, 0.959);
+    background-color: rgba(245, 180, 172, 0.959);
+    color: #afafc8;
 
 }
 
@@ -40,8 +41,6 @@ header {
 .forecast-date {
     font-size: 18px;
     color: #9c6e92
-}
-
 }
 
 /*button*/
