@@ -2,7 +2,7 @@
 
 //Declaring the var city and API key
 var city = $("#searchTerm").val();
-// store api key
+// Store my API key for weather app
 var apiKey = "&appid=b27e7d30cce9afc9ff3978aead8c6654";
 
 var date = new Date();
@@ -26,7 +26,7 @@ $("#searchBtn").on("click", function() {
   $("#searchTerm").val("");  
 
  // full url to call API
-var queryUrl = "api.openweathermap.org/data/2.5/weather?q=Newark,us&appid=b27e7d30cce9afc9ff3978aead8c6654";
+var queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + apiKey;";
 
  $.ajax({
  url: queryUrl,
@@ -87,7 +87,7 @@ cardBody.append(city, temperature, humidity, wind);
 function getCurrentForecast () {
   
   $.ajax({
-    url: "https://api.openweathermap.org/data/2.5/forecast?q=" + newark, + b27e7d30cce9afc9ff3978aead8c6654,
+    url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city + apiKey,
     method: "GET"
   }).then(function (response){
 
