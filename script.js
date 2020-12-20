@@ -1,5 +1,5 @@
 //Adia's Wise Weather Dashboard Code
-
+console.log("script");
 //Declaring the var city and API key
 var city = $("#searchTerm").val();
 // store api key
