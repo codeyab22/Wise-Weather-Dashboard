@@ -16,6 +16,7 @@ $("#searchBtn").click();
 });
 
 $("#search-button").on("click", function() {
+$("#clear-history").on("click", function() {
 
  $('#forecastH5').addClass('show');
 
@@ -92,7 +93,7 @@ function getCurrentForecast () {
   }).then(function (response){
 
 console.log(response)
- console.log(response.dt)
+console.log(response.dt)
  $('#forecast').empty();
 
 // Declaring results to hold response.list
