@@ -15,7 +15,7 @@ $("#searchBtn").click();
 	} 
 });
 
-$("#searchBtn").on("click", function() {
+$("#search-button").on("click", function() {
 
  $('#forecastH5').addClass('show');
 
