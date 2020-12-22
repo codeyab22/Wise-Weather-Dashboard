@@ -39,15 +39,6 @@ header {
     background-color:#e4b2b2;
 }
 
-img {
-    width: auto;
-    height: auto;
-}
-
-input {
-    height: 40px;
-    width: auto;
-}
 
 /*container*/
 .container {
@@ -55,12 +46,6 @@ input {
     flex-direction: row;
     max-width: 640px;
     height: 100%;
-}
-
-.search {
-    padding: 25px;
-    background-color: #e4adad;
-}
 
 /*forecast*/
 .forecast {
