@@ -28,14 +28,6 @@ header {
     background-color: rgb(211, 151, 164)
 }
 
-.row {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("weather-sun-and-moon.png");
-    background-size: cover;
-    background-position: contain, center;
-}
 /*city*/
 .city-name {
     font-size: 30px;
@@ -46,6 +38,15 @@ header {
 .forecast-date {
     font-size: 18px;
     color: #9c6e92;
+}
+
+.row {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("weather-sun-and-moon.png");
+    background-size: cover;
+    background-position: contain, center;
 }
 
 /*button*/
