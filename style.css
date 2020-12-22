@@ -58,13 +58,3 @@ button:focus {
   border: none;
  outline-color: #c4dee9;
 }
-
-/*container*/
-.container {
-    display: flex;
-    flex-direction: row;
-    max-width: 640px;
-    height: 100%;
-}
-
-
