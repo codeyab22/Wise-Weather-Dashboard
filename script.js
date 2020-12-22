@@ -1,4 +1,3 @@
-
 //Adia's Wise Weather Dashboard Code
 console.log("script loaded!");
 //Declaring the var city and API key
@@ -135,4 +134,4 @@ var cityDate = $("<h4>").addClass("card-title").text(date.toLocaleDateString('en
  }
  }
   });
-}})
+}
