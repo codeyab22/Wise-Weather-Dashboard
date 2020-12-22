@@ -14,7 +14,7 @@ body {
 }
 /*header*/
 header {
-    width: 100%;
+    width: 800%;
     height: 100px;
     color:  #c4dee9;
     margin-top: 0;
@@ -41,7 +41,7 @@ header {
 }
 
 .row {
-    height: 100px;
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("weather-sun-and-moon.png");
