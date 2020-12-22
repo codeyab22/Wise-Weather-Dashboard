@@ -2,13 +2,13 @@
 //Adia's Wise Weather Dashboard Code
 console.log("script loaded!");
 //Declaring the var city and API key
-var city = $("#searchTerm").val();
+var city = $("#city-input").val();
 // store api key
 var apiKey = "&appid=b27e7d30cce9afc9ff3978aead8c6654";
 
 var date = new Date();
 
-$("#searchTerm").keypress(function(event) { 
+$("#city-input").keypress(function(event) { 
 	
 if (event.keyCode === 13) { 
 event.preventDefault();
@@ -16,16 +16,18 @@ $("#searchBtn").click();
 	} 
 });
 
-$("#search-button").on("click", function() {
 $("#clear-history").on("click", function() {
+console.log("clear")
+});
 
+$("#search-button").on("click", function() {
  $('#forecastH5').addClass('show');
 
 // get the value of the input from user
-  city = $("#searchTerm").val();
-  
+  city = $("#city-input").val();
+  console.log("SEARCH:", city)
   // clear input box
-  $("#searchTerm").val("");  
+  $("#city-input").val("");  
 
  // full url to call API
 var queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + apiKey;
