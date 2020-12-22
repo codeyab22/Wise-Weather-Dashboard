@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap");
 
 body {
     height: 100%;
@@ -8,7 +6,40 @@ body {
     font-size: 18px;
     line-height: 1px;
     background-color: rgba(245, 180, 172, 0.959);
+
 }
+* {
+    box-sizing: border-box;
+
+}
+/*header*/
+header {
+    width: 100%;
+    height: 100px;
+    color:  #c4dee9;
+    margin-top: 0;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #e4b2b2;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    background-color: rgb(211, 151, 164)
+}
+
+/*city*/
+.city-name {
+    font-size: 30px;
+    color:  #9c6e92;
+}
+
+/*forecast-date*/
+.forecast-date {
+    font-size: 18px;
+    color: #9c6e92;
+}
+
 /*button*/
 button{
     width: 70px;
@@ -20,25 +51,13 @@ button{
 }
 
 button:hover {
-    background-color: #c4dee9;
+ background-color: #c4dee9;
 }
 
 button:focus {
-    border: none;
-    outline-color: #c4dee9;
+  border: none;
+ outline-color: #c4dee9;
 }
-
-/*header*/
-header {
-    width: 100%;
-    height: 100px;
-    color: #c4dee9;
-    margin-top: 0;
-    text-align: center;
-    font-size: xx-large;
-    background-color:#e4b2b2;
-}
-
 
 /*container*/
 .container {
@@ -46,27 +65,5 @@ header {
     flex-direction: row;
     max-width: 640px;
     height: 100%;
+}
 
-/*forecast*/
-.forecast {
-    margin-top: 25px;
-    border: solid 1px #e9b3b3;
-    color: #9c6e92;
-    margin-left: 5%;
-    min-width: 640px;
-    padding: 12px 15px 15px 15px;
-    height: 40%;
-}
-    
-/*city*/
-.city-name {
-    font-size: 30px;
-    color:  #9c6e92;
-}
-/*row*/
-.row {
-    display: flex;
-    background-image: url("weather-sun-and-moon.png");
-    line-height: 50%;
-    margin: 5px 5px 5px 0px;
-}
