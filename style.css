@@ -35,16 +35,20 @@ header {
 }
 
 /*forecast-date*/
-.5-day forecast {height:300px; width:300px;}
+.5-day forecast {
+    height:300px; 
+    width:300px;
     font-size: 18px;
     color: #9c6e92;
 }
 
-#weather{height:300px; width:300px;}
-
+#weather-img {
+    height:300px; 
+    width:300px;
 }
+
 /*button*/
-button{
+button {
     width: 70px;
     height: auto;
     background-color: #f1bbdf;
