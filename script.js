@@ -50,7 +50,7 @@ console.log(response.main.humidity)
  console.log(response.wind.speed)
 
 getCurrentConditions(response);
-
+getCurrentForecast();
   makeList();
 
   })
