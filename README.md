@@ -9,3 +9,5 @@ User's Story
 This person who don't watch the news like they used to. There are plenty of weather forecasts to search on online, but don't check to see what is going.  
 This stunning layout makes the sun and moon rotate like the stars on the watch. I am looking for accurancy and would like to know what cities I am to have this 
 weather. 
+
+This is the repo to the link: https://github.com/codeyab22/Wise-Weather-Dashboard
