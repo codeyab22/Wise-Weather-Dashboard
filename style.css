@@ -12,6 +12,12 @@ body {
     box-sizing: border-box;
 
 }
+
+.search-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 /*header*/
 header {
     width: 100%;
