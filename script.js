@@ -16,8 +16,9 @@ $("#searchBtn").click();
 });
 
 $("#clear-history").on("click", function() {
+localStorage.clear();
 console.log("clear")
-});
+}});
 
 $("#search-button").on("click", function() {
  $('#forecastH5').addClass('show');
