@@ -16,7 +16,7 @@ $("#searchBtn").click();
 });
 
 $("#clear-history").on("click", function () {
-    console.log("clear")});
+    console.log("clear");
     localStorage.clear();
 })
 
