@@ -18,7 +18,7 @@ $("#searchBtn").click();
 $("#clear-history").on("click", function () {
     console.log("clear")});
     localStorage.clear();
-}
+})
 
 $("#search-button").on("click", function() {
  $('#forecastH5').addClass('show');
