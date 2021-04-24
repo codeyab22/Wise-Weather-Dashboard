@@ -26,6 +26,7 @@ Link to the repo: https://github.com/codeyab22/Wise-Weather-Dashboard
 Check out this weathery website: https://codeyab22.github.io/Wise-Weather-Dashboard/
 
 # Wonder Weather Website Screenshot
+
 ![image](https://drive.google.com/uc?export=view&id=1Z5d0fcOZrRn4WxgUg9-bNMCn5shjehgY)
 
 # Questions?
