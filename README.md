@@ -17,6 +17,13 @@ My motivation is to run the api call that builds into the browser and ensure tha
 
 Another motivation is to know to use the  APIs effectively for functionality and be focused on connecting the routes.
 
+# Technologies I used 
+
+1. APIS
+2. Jquery
+3. HTML
+4. CSS
+
 # Link of the Repository
 
 Link to the repo: https://github.com/codeyab22/Wise-Weather-Dashboard
